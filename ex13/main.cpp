@@ -4,6 +4,8 @@
 #include <string.h>
 #include <errno.h>
 
+// push
+
 int main() {
 	printf("errno: %d\n", errno);
 	printf("malloc: %s\n", strerror(errno));
